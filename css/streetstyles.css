@@ -1,0 +1,101 @@
+a:link { color:#000; text-decoration:none; background:transparent; font-weight:bold;}
+a:visited { color:#333; text-decoration:none; background:transparent; cursor:pointer; font-weight:bold;}
+a:hover { color:#F00; text-decoration:none; cursor:pointer; background:transparent; font-weight:bold;}
+a:active { color:#000; text-decoration:none; background:transparent; font-weight:bold;}
+
+body{
+margin-top: 15px;
+margin-left: 30px;
+}
+
+img {
+border: 0;
+}
+input, textarea{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 0.7em;
+color: #333;
+background: #EEE;
+border:1px #CCC solid;
+margin: 4px 0 5px 0;
+padding:2px;
+}
+input.button{
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 0.7em;
+font-weight: bold;
+color: #FFF;
+padding:2px;
+background: #333;
+border:1px #000 solid;
+margin: 4px 0 5px 0;
+cursor: pointer;
+}
+h1,h2,h3,h4{
+font-family: "Helvetica", "Century Gothic", "Trebuchet MS", "Bitstream Vera Sans", verdana, lucida, arial, sans-serif;
+color: #333;
+letter-spacing: -1px;
+margin: 4px 0 4px 0;
+}
+h1{font-size: 14pt;}
+h2{font-size: 12pt;}
+h3{font-size: 10pt;}
+
+p {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 0.7em;
+color: #333;
+line-height: 16px;
+margin-bottom: 8px;
+margin-top: 4px;
+}
+
+#welcome {width:337px;}
+#welcomefooter{border-top: 1px #CCC solid; width:337px;}
+
+#gallery{width:514px;}
+#gallery h1 {display:none;}
+
+img#photo{
+border-left: 8px solid #EEE;
+border-right: 8px solid #EEE;
+position:relative;left:-8px;
+z-index:1;
+}
+#footer{border-top: 1px #CCC solid;width:500px;margin-bottom:40px;}
+#footer p#footnote, #welcomefooter p#footnote {font-size:xx-small;color:#CCC;clear:both;}
+#footer p#footnote a, #welcomefooter p#footnote a {color:#999;font-weight: normal;}
+
+#nav {width: 337px;}
+#photocount {clear:both}
+#toplogo{position:absolute; top:25px; left:11px; z-index:2;}
+
+#pagenav p{font-size: 0.9em;}
+#pagenav p span.note{font-size: xx-small; color:#999999;}
+#pagenav p.left span.note a{padding: 2px 2px 2px 0;position:relative;top:-1px;}
+p.right a.note{color:#CCC;font-weight:normal;}
+.left {float:left;}
+.right{float:right;}
+.spacer{clear:both;}
+.red{color:#F00;}
+.grey{color:#999;}
+.note{font-size:0.8em;}
+#gallery p.right{color:#999;padding-right:12px;}
+a.note{color:#999; font-weight: normal;}
+hr {
+border: none; 
+height: 1px; 
+background: #ccc;
+margin: 0 0 4px 0;
+padding: 0;
+width:40%;
+}
+ul, li {
+list-style-type: circle;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 10px;
+color: #777;
+padding-left: 8px;
+margin-left: 8px;
+line-height: 16px;
+}
